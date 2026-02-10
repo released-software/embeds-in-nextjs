@@ -2,6 +2,8 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+Ciopy .example.env.local to .env.local and fill in the channel ID you want to include as a widget.
+
 First, run the development server:
 
 ```bash
