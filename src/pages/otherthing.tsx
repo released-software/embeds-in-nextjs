@@ -8,7 +8,11 @@ export default function About() {
         <link rel="preconnect" href="https://cdn.tailwindcss.com" />
       </Head>
       <p>This page has no widget.</p>
-      <Link href="/next-script">Link to page with a next/script included widget</Link>
+
+      <ul>
+        <li><Link href="/next-script">Link to page with a next/script included widget</Link></li>
+        <li><Link href="/no-preconnect">Link to page with a next/script included widget with NO PRECONNECT added</Link></li>
+      </ul>
     </div>
   );
 }

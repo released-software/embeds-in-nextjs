@@ -18,6 +18,7 @@ export default function Home() {
     >
       <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
         <Link href="/next-script">A widget included with a next/script</Link>
+        <Link href="/no-preconnect">Link to page with a next/script included widget with NO PRECONNECT added</Link>
         <Link href="/otherthing">A page with no related inclusions.</Link>
       </main>
     </div>

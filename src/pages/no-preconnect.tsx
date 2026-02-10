@@ -10,13 +10,13 @@ export default function About() {
         <link rel="preconnect" href="https://example.com" />
       </Head>
       <CompetingHeadModifier />
-      <ReleasedWidget />
+      <ReleasedWidget preconnect={false} />
       <CompetingHeadModifier />
       <p>See the widget in the bottom right.</p>
-
+      <p>Note: The disabling of preconnect is not yet enabled in production environments.</p>
 
       <ul>
-      <li><Link href="/no-preconnect">Link to page with a next/script included widget with NO PRECONNECT added</Link></li>
+      <li><Link href="/next-script">Link to page with a next/script included widget</Link></li>
       <li><Link href="/otherthing">Go to a page with no widget</Link></li>
       </ul>
     </div>
